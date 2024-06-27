@@ -175,11 +175,11 @@
     background-color: black;
   }
   .main-flex0>.flex-div1>img{
-  height: 150px;
-  width: 150px;
-  margin-left: 20px;
+  height: 110px;
+  width: 110px;
+  margin-left: 200px;
   border-radius: 30px;
-  margin-top: 120px;
+  margin-top: 80px;
   position: relative;
 }
 .main-flex0>.flex-div1>#row-1{
@@ -234,8 +234,11 @@
   }
 }
 @media(min-width:0px) and (max-width:475px){
-  .mobile-nav>ul>i{
+  .mobile-nav>ul>i,#invisable{
     display: none;
+  }
+  .mobile-nav>ul>li{
+    margin-left: 10px;
   }
 
 }
@@ -266,7 +269,7 @@
   <!-- ! Nav-bar session  end-->
 
   <!--! below-1400px navbar starts -->
-  <div class="container-flude">
+  <div class="container-fluid">
     <div class="row">
       <div class="fourteen">
         <img src="./images/title-logo.png" alt="">
@@ -289,7 +292,7 @@
   </div>
   <!--? below-1400px navbar ends -->
 <!-- ! Mobile session start here -->
- <div class="container-flude">
+ <div class="container-fluid">
   <div class="row">
     <div class="mobile-nav">
       <img src="./images/title-logo.png" alt="">
@@ -301,9 +304,9 @@
            <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Login</a></li>
-            <li><a href="#">Cart</a></li>
-            <li><a href="#">Member-ship</a></li>
-            <li><a href="#">Account</a></li>
+            <li><a href="#" id="invisable">Cart</a></li>
+            <li><a href="#" id="invisable">Member-ship</a></li>
+            <li><a href="#" id="invisable">Account</a></li>
             <i class="fa-solid fa-grip-lines"></i>
            </ul>
           <!-- ! added start end here -->
@@ -369,7 +372,7 @@
           <button id="first-button">Buy Now</button>
         </div>
       </div>
-       <div class="second col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+       <div class="second  col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
         <img src="./images/sec-redmi13.webp" alt="">
         <div class="second-content">
           <h4>Redmi Note 13 5G</h4>
@@ -449,25 +452,25 @@
 <div class="container-fluid">
   <div class="row">
     <div class="main-flex0 col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-      <div class="flex-div1 col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+      <div class="flex-div1 col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
         <h3 id="row-1">Xiaomi Pad 6 | ₹2,000 Bank Discount</h3>
         <button id="row-1-but">32% off</button>
         <strong id="row-1-stri">From ₹26,999</strong>  <strike id="row-1-stri">₹39,999</strike>
         <img src="./images/ipad6.jpg" alt="">
       </div>
-      <div class="flex-div2 col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+      <div class="flex-div2 col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
         <h3 id="row-1">Xiaomi Smart TV A40 (100cm)</h3>
         <button id="row-1-but">30% off</button>
         <strong id="row-1-stri">From ₹20,999</strong>  <strike id="row-1-stri">₹29,999</strike>
         <img src="./images//tv-a40.png" alt="" height="150px" width="200">
       </div>
-      <div class="flex-div3 col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+      <div class="flex-div3 col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
         <h3 id="row-1">Xiaomi Smart Air Purifier 4 Lite</h3>
         <button id="row-1-but">26% off</button>
         <strong id="row-1-stri">From ₹10,999</strong>  <strike id="row-1-stri">₹14,999</strike>
         <img src="./images/amplifier.jpg" alt="" height="100px" width="200">
       </div>
-      <div class="flex-div4 col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+      <div class="flex-div4 col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
         <h3 id="row-1">Redmi Buds 5A</h3>
         <button id="row-1-but">50% off</button>
         <strong id="row-1-stri">From ₹1,499</strong>  <strike id="row-1-stri">₹2,999</strike>
