@@ -531,3 +531,41 @@
   border-radius: 10px;
   height: 40px;
 }
+.selling-area{
+  height: 30vh;
+  width: 91vw;
+  /* background-color: red; */
+  margin-left: 100px;
+  position: relative;
+
+}
+.selling-area>img{
+  height: 30vh;
+  width:91vw ;
+  border-style: groove;
+}
+.selling-area>.selling-content{
+  /* position: absolute; */
+  height: 15vh;
+  margin-top: 20px;
+  background-color: white;
+  font-weight: 600;
+ 
+}
+.selling-area>.selling-content>#selling-button{
+  border:none;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  width: 200px;
+  border-radius: 20px;
+
+}
+.selling-area>.selling-content>#selling-button:hover{
+  border:none;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  width: 200px;
+  border-radius: 20px;
+}
